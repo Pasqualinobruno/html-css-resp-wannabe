@@ -51,7 +51,11 @@ img {
     margin: 0 auto;
     padding: 0 20px;
 }
-
+@media all and (max-width: 768px){
+    .container{
+        width: auto;
+    }
+}
 .row {
     display: flex;
 }
@@ -127,3 +131,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+
+
+
+
+
+@media all and (max-width: 480px){
+    .row{
+        flex-wrap: wrap;
+    }
+
+}
+
+
